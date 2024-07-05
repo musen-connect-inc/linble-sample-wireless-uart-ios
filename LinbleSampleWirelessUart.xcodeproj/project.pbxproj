@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6606B85E2BBBDAEC005C67C3 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6606B85D2BBBDAEC005C67C3 /* Toast.swift */; };
+		66123D1D2C32A99C00F58F8E /* TxPacketDividerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66123D1C2C32A99C00F58F8E /* TxPacketDividerTests.swift */; };
+		66294D302BB107DF0047A402 /* BluetoothCentralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66294D2F2BB107DF0047A402 /* BluetoothCentralController.swift */; };
+		66294D322BB10F620047A402 /* Linble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66294D312BB10F620047A402 /* Linble.swift */; };
+		6653ECB82B318B90002638E4 /* LinbleSampleWirelessUartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6653ECB72B318B90002638E4 /* LinbleSampleWirelessUartApp.swift */; };
+		6653ECBA2B318B90002638E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6653ECB92B318B90002638E4 /* ContentView.swift */; };
+		6653ECBC2B318B90002638E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6653ECBB2B318B90002638E4 /* Assets.xcassets */; };
+		6653ECBF2B318B90002638E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6653ECBE2B318B90002638E4 /* Preview Assets.xcassets */; };
+		666734622BB665B1005BEFEC /* UartCommandCreationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666734612BB665B1005BEFEC /* UartCommandCreationTest.swift */; };
+		666734662BB68105005BEFEC /* UartDataParserTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666734652BB68105005BEFEC /* UartDataParserTestTests.swift */; };
+		666734682BB68BF0005BEFEC /* dataChunkExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666734672BB68BF0005BEFEC /* dataChunkExtension.swift */; };
+		66A543C72C362B6700ECD64F /* hexStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A543C62C362B6700ECD64F /* hexStringExtension.swift */; };
+		66C8523C2BB39D2700973B06 /* OperationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C8523B2BB39D2700973B06 /* OperationStep.swift */; };
+		66C8523E2BB3B4B700973B06 /* DeviceBluetoothState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C8523D2BB3B4B700973B06 /* DeviceBluetoothState.swift */; };
+		66C852422BB4039500973B06 /* base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C852412BB4039500973B06 /* base.swift */; };
+		66C852442BB406A100973B06 /* connectionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C852432BB406A100973B06 /* connectionTest.swift */; };
+		66C852462BB4114100973B06 /* deviceName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C852452BB4114100973B06 /* deviceName.swift */; };
+		66C852482BB4130E00973B06 /* registerAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C852472BB4130E00973B06 /* registerAccess.swift */; };
+		66C8524C2BB413EE00973B06 /* RegisterNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C8524B2BB413EE00973B06 /* RegisterNumber.swift */; };
+		66C8524E2BB414B100973B06 /* AsciiString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C8524D2BB414B100973B06 /* AsciiString.swift */; };
+		66C852502BB415F900973B06 /* DurationInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C8524F2BB415F900973B06 /* DurationInterval.swift */; };
+		66C852522BB4168400973B06 /* SamplingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C852512BB4168400973B06 /* SamplingState.swift */; };
+		66C852542BB416FD00973B06 /* sensorSampling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C852532BB416FD00973B06 /* sensorSampling.swift */; };
+		66C852562BB418BE00973B06 /* versionRead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C852552BB418BE00973B06 /* versionRead.swift */; };
+		66CEE7402BB5108D00D7BFFC /* UartDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEE73F2BB5108D00D7BFFC /* UartDataParser.swift */; };
+		66CEE7422BB5385C00D7BFFC /* NotificationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEE7412BB5385C00D7BFFC /* NotificationEvent.swift */; };
+		66DC075F2BB25772009F352D /* Advertisement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DC075E2BB25772009F352D /* Advertisement.swift */; };
+		66DC07612BB26F0D009F352D /* exceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DC07602BB26F0D009F352D /* exceptions.swift */; };
+		66DC07632BB2A81C009F352D /* BluetoothCentralControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DC07622BB2A81C009F352D /* BluetoothCentralControllerDelegate.swift */; };
+		66DC07672BB2AEDB009F352D /* WirelessUartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DC07662BB2AEDB009F352D /* WirelessUartController.swift */; };
+		66F023AC2C2E7E6F009B017F /* TxPacketDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F023AB2C2E7E6F009B017F /* TxPacketDivider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66F156C62BB63EEC0046F423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6653ECAC2B318B8F002638E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6653ECB32B318B90002638E4;
+			remoteInfo = LinbleSampleWirelessUart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6606B85D2BBBDAEC005C67C3 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		66123D1C2C32A99C00F58F8E /* TxPacketDividerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxPacketDividerTests.swift; sourceTree = "<group>"; };
+		66294D2F2BB107DF0047A402 /* BluetoothCentralController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothCentralController.swift; sourceTree = "<group>"; };
+		66294D312BB10F620047A402 /* Linble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linble.swift; sourceTree = "<group>"; };
+		6653ECB42B318B90002638E4 /* LinbleSampleWirelessUart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinbleSampleWirelessUart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6653ECB72B318B90002638E4 /* LinbleSampleWirelessUartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinbleSampleWirelessUartApp.swift; sourceTree = "<group>"; };
+		6653ECB92B318B90002638E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6653ECBB2B318B90002638E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6653ECBE2B318B90002638E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		666734612BB665B1005BEFEC /* UartCommandCreationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UartCommandCreationTest.swift; sourceTree = "<group>"; };
+		666734652BB68105005BEFEC /* UartDataParserTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UartDataParserTestTests.swift; sourceTree = "<group>"; };
+		666734672BB68BF0005BEFEC /* dataChunkExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataChunkExtension.swift; sourceTree = "<group>"; };
+		66A543C62C362B6700ECD64F /* hexStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hexStringExtension.swift; sourceTree = "<group>"; };
+		66C8523B2BB39D2700973B06 /* OperationStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationStep.swift; sourceTree = "<group>"; };
+		66C8523D2BB3B4B700973B06 /* DeviceBluetoothState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceBluetoothState.swift; sourceTree = "<group>"; };
+		66C852412BB4039500973B06 /* base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = base.swift; sourceTree = "<group>"; };
+		66C852432BB406A100973B06 /* connectionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectionTest.swift; sourceTree = "<group>"; };
+		66C852452BB4114100973B06 /* deviceName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deviceName.swift; sourceTree = "<group>"; };
+		66C852472BB4130E00973B06 /* registerAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerAccess.swift; sourceTree = "<group>"; };
+		66C8524B2BB413EE00973B06 /* RegisterNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNumber.swift; sourceTree = "<group>"; };
+		66C8524D2BB414B100973B06 /* AsciiString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsciiString.swift; sourceTree = "<group>"; };
+		66C8524F2BB415F900973B06 /* DurationInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationInterval.swift; sourceTree = "<group>"; };
+		66C852512BB4168400973B06 /* SamplingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplingState.swift; sourceTree = "<group>"; };
+		66C852532BB416FD00973B06 /* sensorSampling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sensorSampling.swift; sourceTree = "<group>"; };
+		66C852552BB418BE00973B06 /* versionRead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = versionRead.swift; sourceTree = "<group>"; };
+		66CEE73F2BB5108D00D7BFFC /* UartDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UartDataParser.swift; sourceTree = "<group>"; };
+		66CEE7412BB5385C00D7BFFC /* NotificationEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationEvent.swift; sourceTree = "<group>"; };
+		66DC075E2BB25772009F352D /* Advertisement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertisement.swift; sourceTree = "<group>"; };
+		66DC07602BB26F0D009F352D /* exceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exceptions.swift; sourceTree = "<group>"; };
+		66DC07622BB2A81C009F352D /* BluetoothCentralControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothCentralControllerDelegate.swift; sourceTree = "<group>"; };
+		66DC07662BB2AEDB009F352D /* WirelessUartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WirelessUartController.swift; sourceTree = "<group>"; };
+		66EA7B092BB65B460019D826 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		66F023AB2C2E7E6F009B017F /* TxPacketDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxPacketDivider.swift; sourceTree = "<group>"; };
+		66F156C22BB63EEC0046F423 /* LinbleSampleWirelessUartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinbleSampleWirelessUartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6653ECB12B318B90002638E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F156BF2BB63EEC0046F423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6606B85C2BBBDAE0005C67C3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6606B85D2BBBDAEC005C67C3 /* Toast.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6653ECAB2B318B8F002638E4 = {
+			isa = PBXGroup;
+			children = (
+				6653ECB62B318B90002638E4 /* LinbleSampleWirelessUart */,
+				66F156C32BB63EEC0046F423 /* LinbleSampleWirelessUartTests */,
+				6653ECB52B318B90002638E4 /* Products */,
+				66EA7B082BB65B460019D826 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6653ECB52B318B90002638E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6653ECB42B318B90002638E4 /* LinbleSampleWirelessUart.app */,
+				66F156C22BB63EEC0046F423 /* LinbleSampleWirelessUartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6653ECB62B318B90002638E4 /* LinbleSampleWirelessUart */ = {
+			isa = PBXGroup;
+			children = (
+				66EDC16A2BC62BE400B0352B /* App */,
+				66DC07642BB2AE53009F352D /* Model */,
+				66C852572BB421C600973B06 /* Extensions */,
+				6606B85C2BBBDAE0005C67C3 /* UI */,
+				6653ECBB2B318B90002638E4 /* Assets.xcassets */,
+				6653ECBD2B318B90002638E4 /* Preview Content */,
+			);
+			path = LinbleSampleWirelessUart;
+			sourceTree = "<group>";
+		};
+		6653ECBD2B318B90002638E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6653ECBE2B318B90002638E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66C852402BB4031A00973B06 /* Uart */ = {
+			isa = PBXGroup;
+			children = (
+				66C852492BB413C800973B06 /* Command */,
+				66C8524A2BB413D500973B06 /* Datatype */,
+			);
+			path = Uart;
+			sourceTree = "<group>";
+		};
+		66C852492BB413C800973B06 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				66C852412BB4039500973B06 /* base.swift */,
+				66C852432BB406A100973B06 /* connectionTest.swift */,
+				66C852472BB4130E00973B06 /* registerAccess.swift */,
+				66C852452BB4114100973B06 /* deviceName.swift */,
+				66C852532BB416FD00973B06 /* sensorSampling.swift */,
+				66C852552BB418BE00973B06 /* versionRead.swift */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		66C8524A2BB413D500973B06 /* Datatype */ = {
+			isa = PBXGroup;
+			children = (
+				66C8524B2BB413EE00973B06 /* RegisterNumber.swift */,
+				66C8524D2BB414B100973B06 /* AsciiString.swift */,
+				66C8524F2BB415F900973B06 /* DurationInterval.swift */,
+				66C852512BB4168400973B06 /* SamplingState.swift */,
+			);
+			path = Datatype;
+			sourceTree = "<group>";
+		};
+		66C852572BB421C600973B06 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				66A543C62C362B6700ECD64F /* hexStringExtension.swift */,
+				666734672BB68BF0005BEFEC /* dataChunkExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		66DC07642BB2AE53009F352D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66DC07662BB2AEDB009F352D /* WirelessUartController.swift */,
+				66DC07652BB2AE64009F352D /* BleControl */,
+				66C852402BB4031A00973B06 /* Uart */,
+				66F023AB2C2E7E6F009B017F /* TxPacketDivider.swift */,
+				66CEE73F2BB5108D00D7BFFC /* UartDataParser.swift */,
+				66C8523B2BB39D2700973B06 /* OperationStep.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66DC07652BB2AE64009F352D /* BleControl */ = {
+			isa = PBXGroup;
+			children = (
+				66294D2F2BB107DF0047A402 /* BluetoothCentralController.swift */,
+				66DC07622BB2A81C009F352D /* BluetoothCentralControllerDelegate.swift */,
+				66C8523D2BB3B4B700973B06 /* DeviceBluetoothState.swift */,
+				66DC075E2BB25772009F352D /* Advertisement.swift */,
+				66DC07602BB26F0D009F352D /* exceptions.swift */,
+				66294D312BB10F620047A402 /* Linble.swift */,
+				66CEE7412BB5385C00D7BFFC /* NotificationEvent.swift */,
+			);
+			path = BleControl;
+			sourceTree = "<group>";
+		};
+		66EA7B082BB65B460019D826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66EA7B092BB65B460019D826 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66EDC16A2BC62BE400B0352B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6653ECB72B318B90002638E4 /* LinbleSampleWirelessUartApp.swift */,
+				6653ECB92B318B90002638E4 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		66F156C32BB63EEC0046F423 /* LinbleSampleWirelessUartTests */ = {
+			isa = PBXGroup;
+			children = (
+				666734612BB665B1005BEFEC /* UartCommandCreationTest.swift */,
+				666734652BB68105005BEFEC /* UartDataParserTestTests.swift */,
+				66123D1C2C32A99C00F58F8E /* TxPacketDividerTests.swift */,
+			);
+			path = LinbleSampleWirelessUartTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6653ECB32B318B90002638E4 /* LinbleSampleWirelessUart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6653ECC72B318B90002638E4 /* Build configuration list for PBXNativeTarget "LinbleSampleWirelessUart" */;
+			buildPhases = (
+				6653ECB02B318B90002638E4 /* Sources */,
+				6653ECB12B318B90002638E4 /* Frameworks */,
+				6653ECB22B318B90002638E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinbleSampleWirelessUart;
+			productName = LinbleSampleWirelessUart;
+			productReference = 6653ECB42B318B90002638E4 /* LinbleSampleWirelessUart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66F156C12BB63EEC0046F423 /* LinbleSampleWirelessUartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F156CA2BB63EEC0046F423 /* Build configuration list for PBXNativeTarget "LinbleSampleWirelessUartTests" */;
+			buildPhases = (
+				66F156BE2BB63EEC0046F423 /* Sources */,
+				66F156BF2BB63EEC0046F423 /* Frameworks */,
+				66F156C02BB63EEC0046F423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F156C72BB63EEC0046F423 /* PBXTargetDependency */,
+			);
+			name = LinbleSampleWirelessUartTests;
+			productName = LinbleSampleWirelessUartTests;
+			productReference = 66F156C22BB63EEC0046F423 /* LinbleSampleWirelessUartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6653ECAC2B318B8F002638E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6653ECB32B318B90002638E4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					66F156C12BB63EEC0046F423 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 6653ECB32B318B90002638E4;
+					};
+				};
+			};
+			buildConfigurationList = 6653ECAF2B318B8F002638E4 /* Build configuration list for PBXProject "LinbleSampleWirelessUart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6653ECAB2B318B8F002638E4;
+			productRefGroup = 6653ECB52B318B90002638E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6653ECB32B318B90002638E4 /* LinbleSampleWirelessUart */,
+				66F156C12BB63EEC0046F423 /* LinbleSampleWirelessUartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6653ECB22B318B90002638E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6653ECBF2B318B90002638E4 /* Preview Assets.xcassets in Resources */,
+				6653ECBC2B318B90002638E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F156C02BB63EEC0046F423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6653ECB02B318B90002638E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66294D302BB107DF0047A402 /* BluetoothCentralController.swift in Sources */,
+				66C8523E2BB3B4B700973B06 /* DeviceBluetoothState.swift in Sources */,
+				66C852482BB4130E00973B06 /* registerAccess.swift in Sources */,
+				66C8523C2BB39D2700973B06 /* OperationStep.swift in Sources */,
+				66C852442BB406A100973B06 /* connectionTest.swift in Sources */,
+				6653ECBA2B318B90002638E4 /* ContentView.swift in Sources */,
+				66CEE7402BB5108D00D7BFFC /* UartDataParser.swift in Sources */,
+				6653ECB82B318B90002638E4 /* LinbleSampleWirelessUartApp.swift in Sources */,
+				66A543C72C362B6700ECD64F /* hexStringExtension.swift in Sources */,
+				66294D322BB10F620047A402 /* Linble.swift in Sources */,
+				66DC07632BB2A81C009F352D /* BluetoothCentralControllerDelegate.swift in Sources */,
+				66C852422BB4039500973B06 /* base.swift in Sources */,
+				66CEE7422BB5385C00D7BFFC /* NotificationEvent.swift in Sources */,
+				66DC07672BB2AEDB009F352D /* WirelessUartController.swift in Sources */,
+				66C852542BB416FD00973B06 /* sensorSampling.swift in Sources */,
+				66DC07612BB26F0D009F352D /* exceptions.swift in Sources */,
+				66C8524C2BB413EE00973B06 /* RegisterNumber.swift in Sources */,
+				66C852462BB4114100973B06 /* deviceName.swift in Sources */,
+				66C852522BB4168400973B06 /* SamplingState.swift in Sources */,
+				6606B85E2BBBDAEC005C67C3 /* Toast.swift in Sources */,
+				66C8524E2BB414B100973B06 /* AsciiString.swift in Sources */,
+				66C852562BB418BE00973B06 /* versionRead.swift in Sources */,
+				666734682BB68BF0005BEFEC /* dataChunkExtension.swift in Sources */,
+				66F023AC2C2E7E6F009B017F /* TxPacketDivider.swift in Sources */,
+				66C852502BB415F900973B06 /* DurationInterval.swift in Sources */,
+				66DC075F2BB25772009F352D /* Advertisement.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F156BE2BB63EEC0046F423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666734622BB665B1005BEFEC /* UartCommandCreationTest.swift in Sources */,
+				66123D1D2C32A99C00F58F8E /* TxPacketDividerTests.swift in Sources */,
+				666734662BB68105005BEFEC /* UartDataParserTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F156C72BB63EEC0046F423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6653ECB32B318B90002638E4 /* LinbleSampleWirelessUart */;
+			targetProxy = 66F156C62BB63EEC0046F423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6653ECC52B318B90002638E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6653ECC62B318B90002638E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6653ECC82B318B90002638E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinbleSampleWirelessUart/Preview Content\"";
+				DEVELOPMENT_TEAM = YY7HT3Q835;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "wireless-uart";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "LINBLEのスキャンやBLE通信を行います。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.musen-connect.LinbleSampleWirelessUart.LinbleSampleWirelessUart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6653ECC92B318B90002638E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinbleSampleWirelessUart/Preview Content\"";
+				DEVELOPMENT_TEAM = YY7HT3Q835;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "wireless-uart";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "LINBLEのスキャンやBLE通信を行います。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.musen-connect.LinbleSampleWirelessUart.LinbleSampleWirelessUart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66F156C82BB63EEC0046F423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY7HT3Q835;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.musen-connect.LinbleSampleWirelessUartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinbleSampleWirelessUart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinbleSampleWirelessUart";
+			};
+			name = Debug;
+		};
+		66F156C92BB63EEC0046F423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY7HT3Q835;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.musen-connect.LinbleSampleWirelessUartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinbleSampleWirelessUart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinbleSampleWirelessUart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6653ECAF2B318B8F002638E4 /* Build configuration list for PBXProject "LinbleSampleWirelessUart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6653ECC52B318B90002638E4 /* Debug */,
+				6653ECC62B318B90002638E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6653ECC72B318B90002638E4 /* Build configuration list for PBXNativeTarget "LinbleSampleWirelessUart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6653ECC82B318B90002638E4 /* Debug */,
+				6653ECC92B318B90002638E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F156CA2BB63EEC0046F423 /* Build configuration list for PBXNativeTarget "LinbleSampleWirelessUartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F156C82BB63EEC0046F423 /* Debug */,
+				66F156C92BB63EEC0046F423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6653ECAC2B318B8F002638E4 /* Project object */;
+}
